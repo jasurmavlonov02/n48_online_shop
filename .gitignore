@@ -140,4 +140,4 @@ GitHub.sublime-settings
 # migration
 db.sqlite3/
 
-!db.sqlite3
+db.sqlite3
