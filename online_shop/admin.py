@@ -9,7 +9,7 @@ from online_shop.models import Product, Category, Comment
 # admin.site.register(Category)
 admin.site.register(Comment)
 
-admin.site.unregister(User)
+# admin.site.unregister(User)
 admin.site.unregister(Group)
 
 
