@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.models import User, Group
 
-from online_shop.models import Product, Category, Comment
+from online_shop.models import Product, Category, Comment, User
 
 # Register your models here.
 
@@ -52,3 +52,6 @@ class ProductModelAdmin(admin.ModelAdmin):
         return obj.price > 20_000_000
 
     is_very_expensive_product.boolean = True
+
+
+admin.site.register(User)
